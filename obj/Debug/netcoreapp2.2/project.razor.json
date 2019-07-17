@@ -2943,8 +2943,18 @@
   "RootNamespace": "CourseApp",
   "Documents": [
     {
+      "FilePath": "Views\\Course\\Thanks.cshtml",
+      "TargetPath": "Views\\Course\\Thanks.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "Views\\_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
     },
     {
