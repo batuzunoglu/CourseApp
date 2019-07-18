@@ -27,10 +27,12 @@ namespace CourseApp.Controllers
         [HttpPost]
         public IActionResult Apply(Student student)
         {
-            // Model Binding
-            // database kayıt
+            if (ModelState.IsValid){
             Repository.AddStudent(student);
             return View("Thanks", student);
+            }else{
+                return View(student);
+            }
         }
 
         public IActionResult Details()
