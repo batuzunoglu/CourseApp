@@ -12,6 +12,8 @@ namespace CourseApp.Controllers
         // localhost:5000/course/index => course/index.cshtml
         public IActionResult Index()
         {
+            var kurs = new Course{Id = 1, Name = "komple uygulamalı geliştirici kursu"};
+            ViewData["course"] = kurs;
             return View();
         }
 
